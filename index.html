@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Authentication using local storage</title>
+  </head>
+  <body>
+    <header id="navbar">
+      <p>Header</p>
+      <div>
+        <span id="sign-up">Sign Up</span>
+        <span id="profile">Profile</span>
+      </div>
+    </header>
+
+    <div class="form-div">
+      <form class="input-div">
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" />
+        <label for="pwd2">Confirm Password</label>
+        <input type="password" id="pwd2" />
+      </form>
+      <p id="error"></p>
+      <p id="sucess"></p>
+      <button id="signup-btn">Sign Up</button>
+    </div>
+
+    <div class="details">
+      <!-- <h1>Profile</h1>
+      <h1>Full Name:</h1>
+      <h1>Email:</h1>
+      <h1>Password:</h1>  -->
+    </div>
+
+    <div class="logout">
+      <button id="logout-btn">LogOut</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
